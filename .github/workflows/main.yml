@@ -2,6 +2,7 @@ name: Build with xelatex
 on:
   push:
     paths:
+      - 'test.tex'
       - 'characters/**'
       - 'template/**'
       - 'character-sheet-settings.tex'
@@ -20,7 +21,7 @@ jobs:
       - name: Compile character tex files
         uses: matsavage/latex-action@master
         with:
-          working_directory: characters
+          root_file: 'test.tex'
           compiler: xelatex
           runs: 2
           args: "--file-line-error --interaction=nonstopmode"
