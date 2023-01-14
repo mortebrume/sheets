@@ -12,7 +12,7 @@
 \setlength\evensidemargin{\oddsidemargin}
 
 % Headline
-\CharacterName{Unnamed Silver Orbital}
+\CharacterName{Feyrith}
 
 \Class{Swordsage 8}
 \Background{Far Traveler}
@@ -45,23 +45,23 @@
 \WisdomSavingThrowModifier{+2}
 \CharismaSavingThrowModifier{0}
 
-\AcrobaticsSkillModifier{0}
+\AcrobaticsSkillModifier{+8}
 \AnimalHandlingSkillModifier{+2}
-\ArcanaSkillModifier{+6}
-\AthleticsSkillModifier{+1}
-\DeceptionSkillModifier{+3}
-\HistorySkillModifier{+6}
-\InsightSkillModifier{+6}
-\IntimidationSkillModifier{+3}
-\InvestigationSkillModifier{+7} % +5 Observant
+\ArcanaSkillModifier{+2}
+\AthleticsSkillModifier{+4}
+\DeceptionSkillModifier{0}
+\HistorySkillModifier{+5}
+\InsightSkillModifier{+2}
+\IntimidationSkillModifier{0}
+\InvestigationSkillModifier{+2}
 \MedicineSkillModifier{+2}
 \NatureSkillModifier{+2}
-\PerceptionSkillModifier{+7} % +5 Observant
-\PerformanceSkillModifier{+3}
-\PersuasionSkillModifier{+7} 
+\PerceptionSkillModifier{+5}
+\PerformanceSkillModifier{0}
+\PersuasionSkillModifier{0} 
 \ReligionSkillModifier{+2}
-\SleightOfHandSkillModifier{0}
-\StealthSkillModifier{0}
+\SleightOfHandSkillModifier{+5}
+\StealthSkillModifier{+8}
 \SurvivalSkillModifier{+2}
 
 % Prociciencies
@@ -75,9 +75,9 @@
 \AcrobaticsProficiency{True} % Shadar-kai
 \AnimalHandlingProficiency{}
 \ArcanaProficiency{}
-\AthleticsProficiency{}
+\AthleticsProficiency{True} % Swordsage
 \DeceptionProficiency{}
-\HistoryProficiency{}
+\HistoryProficiency{True} % Fighter
 \InsightProficiency{True} % Far Traveler
 \IntimidationProficiency{}
 \InvestigationProficiency{}
@@ -88,7 +88,7 @@
 \PersuasionProficiency{}
 \ReligionProficiency{}
 \SleightOfHandProficiency{}
-\StealthProficiency{}
+\StealthProficiency{True} % Fighter
 
 \Inspiration{}
 \Proficiency{+3}
@@ -111,7 +111,8 @@
 
 
 \AddWeapon{Longsword}{+9}{1d8+6 s}
-\AddWeapon{Light Crossbow}{+4}{1d8 p}
+\AddWeapon{Light Crossbow}{+8}{1d8 p}
+\AddWeapon{Dagger}{+8}{1d4 p}
 
 \AttacksAdditional{
 \textbf{Exploit Dice:}\\Four d8 dices\\
@@ -123,8 +124,8 @@
 Darkvision (60 ft.)\\
 \textbf{Languages:}\\Common, Elvish, Sylvan\\
 \textbf{Armor:}\\Studded Leather\\
-\textbf{Weapons:}\\Daggers, darts, slings, quarterstaffs, light crossbows\\
-\textbf{Tools:}\\todo
+\textbf{Weapons:}\\Longsword, light crossbow, dagger\\
+\textbf{Tools:}\\Thieve's tools
 }
 
 \Equipment{
@@ -137,8 +138,7 @@ a tinderbox,
 10 days of rations,
 a waterskin,
 50 ft hempen rope,
-Jeweller's tools,
-Gilbmarrow's map of Northern Gulala
+Thieve's tools,
 }
 
 \PersonalityTraits{
@@ -230,9 +230,6 @@ Allied with the cult of the dragon. Lorem ipsum dolor sit amet, consectetur adip
 
 % CHARACTER PAGE
 \rendercharactersheet
-
-% BACKSTORY PAGE
-\renderbackgroundsheet
 
 
 
@@ -352,7 +349,7 @@ When you are wielding a finesse weapon with which you are proficient and another
 \subsection*{Blessing of the Raven Queen}
 As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
-Start at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.
+Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.
 
 \subsection*{Darkvision}
 You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.
